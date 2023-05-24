@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://invitera.art">
+  <img alt="invitera - Invitation website with some extra DX" src="">
+  <h1 align="center">invitera</h1>
+</a>
 
-## Getting Started
+<p align="center">
+  An open-source link management tool for modern marketing teams to create, share, and track short links.
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="https://twitter.com/arga_xy">
+    <img src="https://img.shields.io/twitter/follow/arga_xy?style=flat&label=%40arga_xy&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
+  </a>
+  <a href="https://github.com/arganaphang/invitera/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/arganaphang/invitera?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
+  </a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<p align="center">
+  <a href="#introduction"><strong>Introduction</strong></a> ·
+  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
+  <a href="#implementation"><strong>Implementation</strong></a> ·
+  <a href="#contributing"><strong>Contributing</strong></a>
+</p>
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org/) – framework
+- [Typescript](https://www.typescriptlang.org/) – language
+- [Tailwind](https://tailwindcss.com/) – CSS
+- [PlanetScale](https://planetscale.com/) – database
+- [NextAuth.js](https://next-auth.js.org/) – auth
+- [Vercel](https://vercel.com/) – hosting
 
-## Learn More
+## Implementation
 
-To learn more about Next.js, take a look at the following resources:
+invitera is built as a standard Next.js application with [Middleware](https://nextjs.org/docs/advanced-features/middleware) to handle multi-tenancy, inspired by [the Vercel Platforms Starter Kit](https://github.com/vercel/platforms).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[MySQL](https://www.mysql.com/) is used as the database for storing user data, project data, and link metadata. You can refer to the Prisma schema [here](/prisma/schema.prisma).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We love our contributors! Here's how you can contribute:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Open an issue](https://github.com/arganaphang/invitera/issues) if you believe you've encountered a bug.
+- Make a [pull request](https://github.com/arganaphang/invitera/pull) to add new features/make quality-of-life improvements/fix bugs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="https://github.com/arganaphang/invitera/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=arganaphang/invitera" />
+</a>
+
+## Author
+
+- Argana Phangquestian ([@arga_xy](https://twitter.com/arga_xy))
+
+## License
+
+MIT
+
